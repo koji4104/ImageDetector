@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB04C64721650D6B00C4A1B8 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB04C64621650D6B00C4A1B8 /* Inceptionv3.mlmodel */; };
+		EB04C649216B23F500C4A1B8 /* Chicken.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB04C648216B23F500C4A1B8 /* Chicken.mlmodel */; };
 		EB75946E213C315D009B3498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB75946D213C315D009B3498 /* AppDelegate.swift */; };
 		EB759470213C315D009B3498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB75946F213C315D009B3498 /* ViewController.swift */; };
 		EB759473213C315D009B3498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB759471213C315D009B3498 /* Main.storyboard */; };
 		EB759475213C315E009B3498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB759474213C315E009B3498 /* Assets.xcassets */; };
 		EB759478213C315E009B3498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB759476213C315E009B3498 /* LaunchScreen.storyboard */; };
+		EB759481213C31D5009B3498 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB759480213C31D5009B3498 /* CoreImage.framework */; };
+		EB759483213C31E9009B3498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB759482213C31E9009B3498 /* Foundation.framework */; };
+		EB759485213C31F0009B3498 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB759484213C31F0009B3498 /* UIKit.framework */; };
+		EB759487213C31F7009B3498 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB759486213C31F7009B3498 /* AVFoundation.framework */; };
+		EB75948B213C3245009B3498 /* MyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB759488213C3245009B3498 /* MyExtension.swift */; };
+		EB75948D213C3245009B3498 /* Mymodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB75948A213C3245009B3498 /* Mymodel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB04C64621650D6B00C4A1B8 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		EB04C648216B23F500C4A1B8 /* Chicken.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Chicken.mlmodel; sourceTree = "<group>"; };
 		EB75946A213C315D009B3498 /* ImageDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB75946D213C315D009B3498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB75946F213C315D009B3498 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		EB759474213C315E009B3498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB759477213C315E009B3498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB759479213C315E009B3498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB759480213C31D5009B3498 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		EB759482213C31E9009B3498 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB759484213C31F0009B3498 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB759486213C31F7009B3498 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EB759488213C3245009B3498 /* MyExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyExtension.swift; sourceTree = "<group>"; };
+		EB75948A213C3245009B3498 /* Mymodel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mymodel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB759481213C31D5009B3498 /* CoreImage.framework in Frameworks */,
+				EB759485213C31F0009B3498 /* UIKit.framework in Frameworks */,
+				EB759483213C31E9009B3498 /* Foundation.framework in Frameworks */,
+				EB759487213C31F7009B3498 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +60,7 @@
 			children = (
 				EB75946C213C315D009B3498 /* ImageDetector */,
 				EB75946B213C315D009B3498 /* Products */,
+				EB75947F213C31D4009B3498 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +75,10 @@
 		EB75946C213C315D009B3498 /* ImageDetector */ = {
 			isa = PBXGroup;
 			children = (
+				EB04C648216B23F500C4A1B8 /* Chicken.mlmodel */,
+				EB04C64621650D6B00C4A1B8 /* Inceptionv3.mlmodel */,
+				EB759488213C3245009B3498 /* MyExtension.swift */,
+				EB75948A213C3245009B3498 /* Mymodel.swift */,
 				EB75946D213C315D009B3498 /* AppDelegate.swift */,
 				EB75946F213C315D009B3498 /* ViewController.swift */,
 				EB759471213C315D009B3498 /* Main.storyboard */,
@@ -62,6 +87,17 @@
 				EB759479213C315E009B3498 /* Info.plist */,
 			);
 			path = ImageDetector;
+			sourceTree = "<group>";
+		};
+		EB75947F213C31D4009B3498 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB759486213C31F7009B3498 /* AVFoundation.framework */,
+				EB759484213C31F0009B3498 /* UIKit.framework */,
+				EB759482213C31E9009B3498 /* Foundation.framework */,
+				EB759480213C31D5009B3498 /* CoreImage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB04C64721650D6B00C4A1B8 /* Inceptionv3.mlmodel in Sources */,
 				EB759470213C315D009B3498 /* ViewController.swift in Sources */,
+				EB04C649216B23F500C4A1B8 /* Chicken.mlmodel in Sources */,
+				EB75948D213C3245009B3498 /* Mymodel.swift in Sources */,
 				EB75946E213C315D009B3498 /* AppDelegate.swift in Sources */,
+				EB75948B213C3245009B3498 /* MyExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -283,6 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9TD6G2FZN5;
 				INFOPLIST_FILE = ImageDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9TD6G2FZN5;
 				INFOPLIST_FILE = ImageDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +364,7 @@
 				EB75947B213C315E009B3498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		EB75947C213C315E009B3498 /* Build configuration list for PBXNativeTarget "ImageDetector" */ = {
 			isa = XCConfigurationList;
@@ -331,7 +373,7 @@
 				EB75947E213C315E009B3498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
