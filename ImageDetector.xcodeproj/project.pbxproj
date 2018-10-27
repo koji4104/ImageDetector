@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EB04C64721650D6B00C4A1B8 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB04C64621650D6B00C4A1B8 /* Inceptionv3.mlmodel */; };
-		EB04C649216B23F500C4A1B8 /* Chicken.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB04C648216B23F500C4A1B8 /* Chicken.mlmodel */; };
 		EB75946E213C315D009B3498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB75946D213C315D009B3498 /* AppDelegate.swift */; };
 		EB759470213C315D009B3498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB75946F213C315D009B3498 /* ViewController.swift */; };
 		EB759473213C315D009B3498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB759471213C315D009B3498 /* Main.storyboard */; };
@@ -24,7 +23,6 @@
 
 /* Begin PBXFileReference section */
 		EB04C64621650D6B00C4A1B8 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
-		EB04C648216B23F500C4A1B8 /* Chicken.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Chicken.mlmodel; sourceTree = "<group>"; };
 		EB75946A213C315D009B3498 /* ImageDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB75946D213C315D009B3498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB75946F213C315D009B3498 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 		EB75946C213C315D009B3498 /* ImageDetector */ = {
 			isa = PBXGroup;
 			children = (
-				EB04C648216B23F500C4A1B8 /* Chicken.mlmodel */,
 				EB04C64621650D6B00C4A1B8 /* Inceptionv3.mlmodel */,
 				EB759488213C3245009B3498 /* MyExtension.swift */,
 				EB75948A213C3245009B3498 /* Mymodel.swift */,
@@ -173,7 +170,6 @@
 			files = (
 				EB04C64721650D6B00C4A1B8 /* Inceptionv3.mlmodel in Sources */,
 				EB759470213C315D009B3498 /* ViewController.swift in Sources */,
-				EB04C649216B23F500C4A1B8 /* Chicken.mlmodel in Sources */,
 				EB75948D213C3245009B3498 /* Mymodel.swift in Sources */,
 				EB75946E213C315D009B3498 /* AppDelegate.swift in Sources */,
 				EB75948B213C3245009B3498 /* MyExtension.swift in Sources */,
