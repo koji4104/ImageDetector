@@ -4,10 +4,10 @@ import Vision
 import CoreML
 
 /*
- １回の結果は、すべての分類を足して100になるように出ます
- このアプリでは、毎回結果をプラスして、20をマイナスします
- 0.5秒に１回判定するので、５回何もなければゼロになります
- 結果例 ["drum":60, "keel":30, "rib":10, "thigh":0, "wing":0]
+ 機械学習のモデルの結果を表示します。
+ １回の結果は、すべての分類を足して100になるように出ます。
+ このアプリでは、毎回結果をプラスして、20をマイナスします。
+ １秒間に２回判定するので、2.5秒間何もなければゼロになります。
 */
 class Mymodel {
 
@@ -41,8 +41,7 @@ class Mymodel {
     lazy var requestMymodel: VNCoreMLRequest = {
         do {
             var model: VNCoreMLModel? = nil
-            //model = try VNCoreMLModel(for: Chicken().model) // 自作のチキンモデル
-            model = try VNCoreMLModel(for: Inceptionv3().model) // 公開されているモデル
+            model = try VNCoreMLModel(for: Inceptionv3().model) // ここを自作モデルに入れ替える
             return VNCoreMLRequest(model: model!, completionHandler: self.completeMymodel)
         } catch {
             fatalError("can't load Vision ML model: \(error)")
